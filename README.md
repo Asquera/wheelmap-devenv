@@ -27,4 +27,4 @@ $ vagrant ssh
 ```
 
 When you run Rails 3.x inside Ubuntu 12.04 it turns out to be very slow. To fix that, follow the steps described here:
-[http://www.visionfactory.com.au/blog/rails_dev_with_webrick_really_slow_in_a_](http://www.visionfactory.com.au/blog/rails_dev_with_webrick_really_slow_in_a_)
+[http://stackoverflow.com/a/3465134](http://stackoverflow.com/a/3465134)
