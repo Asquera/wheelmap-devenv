@@ -45,7 +45,7 @@ In the VM use `sudo vim /etc/exports` and put following into the file:
 
 ```
 
-Then re-read:
+Then reload:
 
 ```
 sudo exportfs -ra
