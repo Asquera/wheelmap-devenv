@@ -9,4 +9,4 @@ apt-get install -y ruby2.2 ruby2.2-dev
 gem install bundler
 curl -sL https://deb.nodesource.com/setup_4.x | bash
 apt-get install -y nodejs
-
+apt-get install -y nfs-kernel-server # mounts nfs outside VM
