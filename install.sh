@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#Set locale to en_US.utf8. Needed for a successful capistrano deployment
+update-locale LC_ALL=en_US.utf8
+
 apt-get update
 export DEBIAN_FRONTEND=noninteractive #Prevents mysql installer to show set password dialogue
 apt-get install -y git imagemagick mysql-server python-software-properties curl build-essential libmysqlclient-dev libxslt-dev libxml2-dev zlib1g-dev libmagick++-dev vim
