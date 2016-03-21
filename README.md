@@ -12,14 +12,6 @@ Clone this repository:
 ```bash
 $ git clone git@github.com:Asquera/wheelmap-devenv.git
 ```
-
-First run
-
-```
-vagrant init
-
-```
-
 Then run
 
 ```bash

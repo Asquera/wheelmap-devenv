@@ -17,4 +17,4 @@ apt-get update
 apt-get install -y git
 
 # comment out to mount via NFS outside VM:
-# apt-get install -y nfs-kernel-server
+apt-get install -y nfs-kernel-server
