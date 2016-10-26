@@ -22,5 +22,6 @@ export MYSQL_ROOT_PASSWORD='root'
 debconf-set-selections <<< "mysql-server-5.6 mysql-server/root_password password $MYSQL_ROOT_PASSWORD"
 debconf-set-selections <<< "mysql-server-5.6 mysql-server/root_password_again password $MYSQL_ROOT_PASSWORD"
 
-apt-get install -y git imagemagick mysql-server-5.6 python-software-properties curl build-essential libmysqlclient-dev libxslt-dev libxml2-dev zlib1g-dev libmagick++-dev vim ruby ruby-dev nodejs npm
+apt-get install -y git imagemagick mysql-server-5.6 python-software-properties curl build-essential libmysqlclient-dev libxslt-dev libxml2-dev zlib1g-dev libmagick++-dev vim ruby ruby-dev nodejs npm libgeos-dev libproj-dev libgdal-dev
+
 gem install bundler
