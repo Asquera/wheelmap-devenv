@@ -23,6 +23,9 @@ debconf-set-selections <<< "mysql-server-5.6 mysql-server/root_password password
 debconf-set-selections <<< "mysql-server-5.6 mysql-server/root_password_again password $MYSQL_ROOT_PASSWORD"
 
 # Install the dependencies.
-apt-get install -y git imagemagick mysql-server-5.6 python-software-properties curl build-essential libmysqlclient-dev libxslt-dev libxml2-dev zlib1g-dev libmagick++-dev vim ruby ruby-dev nodejs-legacy npm libgeos-dev libproj-dev libgdal-dev
+apt-get install -y build-essential curl git imagemagick libgdal-dev libgeos-dev\
+  libmagick++-dev libmysqlclient-dev libproj-dev libxml2-dev libxslt-dev       \
+  mysql-server-5.6 nodejs-legacy npm python-software-properties ruby ruby-dev  \
+  vim zlib1g-dev
 
 gem install bundler
