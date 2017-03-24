@@ -1,3 +1,11 @@
+
+# DEPRECATED
+
+The functionality offered by this repository is now
+included in the wheelmap project.
+
+(LINK TO VAGRANT ENTRY ON WHEELMAP)
+
 # wheelmap-devenv
 
 Dependencies for this:
