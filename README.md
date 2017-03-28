@@ -1,3 +1,11 @@
+# DEPRECATED DEPRECATED DEPRECATED
+
+---
+
+The functionality offered by this repository is now
+[included](https://github.com/sozialhelden/wheelmap/tree/master/vagrant)
+in the wheelmap project.
+
 # wheelmap-devenv
 
 Dependencies for this:
