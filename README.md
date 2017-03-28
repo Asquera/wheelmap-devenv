@@ -1,10 +1,10 @@
+# DEPRECATED DEPRECATED DEPRECATED
 
-# DEPRECATED
+---
 
 The functionality offered by this repository is now
-included in the wheelmap project.
-
-(LINK TO VAGRANT ENTRY ON WHEELMAP)
+[included](https://github.com/sozialhelden/wheelmap/tree/master/vagrant)
+in the wheelmap project.
 
 # wheelmap-devenv
 
