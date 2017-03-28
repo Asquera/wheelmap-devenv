@@ -1,5 +1,4 @@
-# DEPRECATED DEPRECATED DEPRECATED
-
+# DEPRECATED
 ---
 
 The functionality offered by this repository is now
